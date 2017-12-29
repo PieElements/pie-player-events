@@ -1,6 +1,6 @@
 {
   "name": "@pie-libs/pie-player-events",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
