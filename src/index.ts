@@ -1,4 +1,10 @@
-export class ModelSetEvent extends CustomEvent {
+export type ModelSetDetail = {
+  complete: boolean,
+  component: any,
+  hasModel: boolean
+};
+
+export class ModelSetEvent extends CustomEvent<ModelSetDetail> {
 
   static TYPE = 'model-set';
 
@@ -11,7 +17,12 @@ export class ModelSetEvent extends CustomEvent {
 
 export type DeleteDone = (e?: Error) => void;
 
-export class SessionChangedEvent extends CustomEvent {
+export type SessionChangedDetail = {
+  complete: boolean;
+  component: any
+};
+
+export class SessionChangedEvent extends CustomEvent<SessionChangedDetail> {
 
   static TYPE = 'session-changed';
 
