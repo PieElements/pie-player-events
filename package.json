@@ -1,5 +1,5 @@
 {
-  "name": "@pie-libs/pie-player-events",
+  "name": "@pie-framework/pie-player-events",
   "version": "0.0.1",
   "author": "",
   "main": "lib/index.js",
